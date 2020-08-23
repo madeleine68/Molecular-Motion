@@ -10,7 +10,7 @@ while True:
 
 	# Plot the points in the walk 
 	plt.style.use('classic')
-	fig, ax = plt.subplots(figsize = (15,9))
+	fig, ax = plt.subplots(figsize = (12,9))
 	point_numbers = range(rw.num_points)
 	ax.plot(rw.x_values, rw.y_values, linewidth = 0.5, zorder = 1)
 	# Emphasize the first and the last points.
